@@ -1,6 +1,6 @@
-<h2 id='structure-of-a-document'>Structure of a Document</h2>
+<h1 id='structure-of-a-document'>Structure of a Document</h1>
 <p>Documents are either single-chapter or multi-chapter. The following sections discuss what each type typically contains.</p>
-<h3 id='single-chapter-documents'>Single-Chapter Documents</h3>
+<h2 id='single-chapter-documents'>Single-Chapter Documents</h2>
 <p>Documents with a single chapter are usually small (less than 25 pages), or are narrowly focused on a single topic. Examples of such single-chapter documents include:</p>
 
 <ul>
@@ -26,7 +26,7 @@
 <li><strong>(Optional) Appendix A</strong>: This contains the additional information related to the content specified in the chapter. It starts from a new page.</li>
 <li><strong>(Optional) A Glossary</strong>: This contains the list of important terms that have been used in the document, and a good place to consolidate all the important definitions. It starts from a new page.</li>
 </ul>
-<h3 id='multi-chapter-documents'>Multi-Chapter Documents</h3>
+<h2 id='multi-chapter-documents'>Multi-Chapter Documents</h2>
 <p>Any document that is more than 30 pages or covers different aspects related to a topic is typically organized as a multi-chapter document. Most of the documents in the Technical Writing (TW) universe are of this type.</p>
 
 <p>For a multiple-chapter document, ensure you have the following components:</p>
