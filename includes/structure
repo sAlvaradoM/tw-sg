@@ -57,9 +57,23 @@ Chapter 1: Before You Begin...
 <ul>
 <li><strong>Chapter 1</strong>: Typically, the content of overview or introduction to the overall subject matter of the guide is covered in this chapter. This starts from a new page, and has a heading and a chapter number.</li>
 <li><strong>Chapter 2, 3. 4…</strong></li>
-<li><strong>Chapter <em>n</em></strong>: This is the last chapter of the guide or document.</li>
-<li><strong>(Optional) Appendix A</strong>: This contains the additional information related to the content specified in one of the chapters in the guide or document. It starts from a new page.</li>
-<li><strong>Appendix B, C, D…</strong></li>
-<li><strong>(Optional) Appendix <em>n</em></strong>: This is the final appendix of the guide or the document. It starts from a new page.</li>
-<li><strong>(Optional) A Glossary</strong>: This contains the list of important terms that have been used in the document, and a good place to consolidate all the important definitions. It starts from a new page.</li>
+<li><p><strong>Chapter <em>n</em></strong>: This is the last chapter of the guide or document.</p>
+
+<blockquote>
+<p><strong>For example</strong>:
+<code>
+Appendix A: Before You Begin...
+</code></p>
+</blockquote></li>
+<li><p><strong>(Optional) Appendix A</strong>: This contains the additional information related to the content specified in one of the chapters in the guide or document. It starts from a new page.</p></li>
+<li><p><strong>Appendix B, C, D…</strong></p></li>
+<li><p><strong>(Optional) Appendix <em>n</em></strong>: This is the final appendix of the guide or the document. It starts from a new page.</p></li>
 </ul>
+
+<blockquote>
+<p><strong>For example</strong>:
+<code>
+A Glossary: Before You Begin...
+</code>
+- <strong>(Optional) A Glossary</strong>: This contains the list of important terms that have been used in the document, and a good place to consolidate all the important definitions. It starts from a new page.</p>
+</blockquote>
