@@ -230,7 +230,13 @@
             <a href="#use-of-bold-italics-and-fixed-fonts" class="toc-h1 toc-link" data-title="Use of Bold, Italics, and Fixed Fonts">Use of Bold, Italics, and Fixed Fonts</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#bold-bold" class="toc-h2 toc-link" data-title="Bold {#bold}">Bold {#bold}</a>
+                    <a href="#bold" class="toc-h2 toc-link" data-title="Bold">Bold</a>
+                  </li>
+                  <li>
+                    <a href="#italics" class="toc-h2 toc-link" data-title="Italics">Italics</a>
+                  </li>
+                  <li>
+                    <a href="#fixed-font" class="toc-h2 toc-link" data-title="Fixed Font">Fixed Font</a>
                   </li>
               </ul>
           </li>
@@ -307,7 +313,7 @@ Chapter 1: Before You Begin...</li>
 
 <p>We typically use <strong>Bold</strong>, <em>Italics</em>, and <code>Fixed Font</code> (also named <code>Monospaced Font</code> or <code>fixed-pitch</code>) to highlight a specific word for a definitive reason. The following sections explain when to use which for the maximum effect.</p>
 
-<h2 id='bold-bold'>Bold {#bold}</h2>
+<h2 id='bold'>Bold</h2>
 
 <p>Use Bold to highlight:</p>
 
@@ -324,37 +330,53 @@ Chapter 1: Before You Begin...</li>
 Run the <code>npm install text-cli</code> command to install the <strong><code>txt-cli</code></strong> utility.</li>
 <li><strong>User input</strong>: For example,
 Enter <strong>10.1.1.1</strong> in the <strong>IP Address</strong> field.</li>
+<li><strong>Special cases of UI Elements</strong>: If a button has an icon instead of text, use a small image of the button in your text. For example,</li>
 </ul>
 
-<p><strong>NOTE</strong>: If a button has an icon instead of text, use a small image of the button in your text. For example,</p>
+<table><thead>
+<tr>
+<th style="text-align: left">Situation</th>
+<th style="text-align: left">Example</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: left"><strong>When the button only has an icon</strong></td>
+<td style="text-align: left">Click <strong>Close</strong> (<img src="includes/images/closeIcon-1b922fd9.png" alt="close icon" style="width:200px;"/>) to close the dialog box.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>When the button has both icon and text</strong></td>
+<td style="text-align: left">Click <strong>Close</strong> <img src="includes/images/closeIcon-1b922fd9.png" alt="close icon" style="width:200px;"/> to close the dialog box.</td>
+</tr>
+</tbody></table>
 
-<p>|<strong>When the button only has an icon</strong>|Click <strong>Close</strong> (<img src="includes/images/closeIcon-1b922fd9.png" alt="Close Icon" />) to close the dialog box.|
-|<strong>When the button has both icon and text</strong>|Click Close <img src="includes/images/closeIcon-1b922fd9.png" alt="Close Icon" /> to close the dialog box.|</p>
+<h2 id='italics'>Italics</h2>
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<blockquote>
+<p><strong>NOTE</strong>: Use this style sparingly. Otherwise you might dilute its “strength”.</p>
+</blockquote>
 
-<p><img src="images/images/Copy-of0.png" title="image_tooltip" alt="alt_text" />
- button to close the dialog box.</p>
-
-<h3 id='italics-italics'>Italics {#italics}</h3>
-
-<p>Italics are typically used to emphasize a word or group of words. For example:</p>
-
-<p><em>At least <strong>two</strong></em> Dev reviews are required before you check in your code.</p>
-
-<p>You must <em>not</em> enter the building without your ID card.</p>
-
-<p>**NOTE: **Use this style sparingly. Otherwise you might dilute its “strength”.</p>
-
-<h3 id='fixed-font-fixed-font'>Fixed Font {#fixed-font}</h3>
-
-<p>Use this style to highlight the following in your text:</p>
+<p>Italics are typically used to emphasize a word or group of words. For example.</p>
 
 <ul>
-<li>  *<em>Command or piece of code: **For example: \
-Run the <code>npm install text-cli</code> command to install the *</em><code>txt-cli</code></strong> utility.</li>
-<li>  <strong>File or folder names: </strong>For example: \
-Read the <code>README.md</code> file before you proceed.</li>
+<li><em>At least <strong>two</strong></em> Dev reviews are required before you check in your code.</li>
+<li>You must <em>not</em> enter the building without your ID card.</li>
+</ul>
+
+<h2 id='fixed-font'>Fixed Font</h2>
+
+<p>Use a <code>monospaced font</code> style to highlight the following in your text:</p>
+
+<ul>
+<li><strong>Command or piece of code</strong>: For example,
+
+<ul>
+<li>Run the <code>npm install text-cli</code> command to install the **<code>txt-cli</code></strong> utility.</li>
+</ul></li>
+<li><strong>File or folder names</strong>: For example,
+
+<ul>
+<li>Read the <code>README.md</code> file before you proceed.</li>
+</ul></li>
 </ul>
 
       </div>
