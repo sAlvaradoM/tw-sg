@@ -1,8 +1,8 @@
-## Structure of a Document
+# Structure of a Document
 
 Documents are either single-chapter or multi-chapter. The following sections discuss what each type typically contains.
 
-### Single-Chapter Documents
+## Single-Chapter Documents
 
 Documents with a single chapter are usually small (less than 25 pages), or are narrowly focused on a single topic. Examples of such single-chapter documents include:
 
@@ -14,39 +14,31 @@ Documents with a single chapter are usually small (less than 25 pages), or are n
 
 For a single-chapter document, ensure you have the following components:
 
+> **IMPORTANT**: Every time you make a major update to an existing document, make sure that you create a copy and make changes to it. Update the release date and month accordingly.
+
 - **The Front Page (or Title Page)**: This contains the official name of the document (or guide), a very short and succinct explanation of what the document is about and a brief description of its audience. It also includes the release month and year.
-
-**IMPORTANT**: Every time you make a major update to an existing document, make sure that you create a copy and make changes to it. Update the release date and month accordingly.
-
 - **A page with ToC**: Always have this if your document is more than five pages. For very short documents, it’s OK to not include the ToC.
 - **An empty second page**: Leave this page empty.
 - **A single Chapter**: The content of this entire document resides in this chapter. This just has a heading, no chapter number.
 - **(Optional) Appendix A**: This contains the additional information related to the content specified in the chapter. It starts from a new page.
 - **(Optional) A Glossary**: This contains the list of important terms that have been used in the document, and a good place to consolidate all the important definitions. It starts from a new page.
 
-### Multi-Chapter Documents
+## Multi-Chapter Documents
 
 Any document that is more than 30 pages or covers different aspects related to a topic is typically organized as a multi-chapter document. Most of the documents in the Technical Writing (TW) universe are of this type.
 
 For a multiple-chapter document, ensure you have the following components:
 
+> **IMPORTANT**: Every time you make a major update to an existing document, make sure that you create a copy and make changes to it. Update the release date and month accordingly.
+
 - **The Front Page (or Title Page)**: This contains the official name of the document (or guide), a very short and succinct explanation of what the document is about and a brief description of its audience. It also includes the release month and year.
 
-**IMPORTANT**: Every time you make a major update to an existing document, make sure that you create a copy and make changes to it. Update the release date and month accordingly.
+> **NOTE**:For very short documents (five pages or less), it’s OK to not include the ToC.
 
 - **A page with ToC**: Always have this, if your document is more than five pages.
-
-**NOTE**:For very short documents (five pages or less), it’s OK to not include the ToC.
-
 - **An empty page**: Leave this page empty.
-- **Chapter 1**: Typically, the content of overview or introduction to the overall subject matter of the guide is covered in this chapter. This starts from a new page, and has a heading and a chapter number.
-
-> **For example**:
-
-```shell
-Chapter 1: Before You Begin...
-```
-
+- **Chapter 1**: Typically, the content of overview or introduction to the overall subject matter of the guide is covered in this chapter. This starts from a new page, and has a heading and a chapter number. For example,
+    Chapter 1: Before You Begin...
 - **Chapter 2, 3. 4…**
 - **Chapter _n_**: This is the last chapter of the guide or document.
 - **(Optional) Appendix A**: This contains the additional information related to the content specified in one of the chapters in the guide or document. It starts from a new page.
