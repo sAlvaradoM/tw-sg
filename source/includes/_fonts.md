@@ -6,41 +6,20 @@ We typically use **Bold**, _Italics_, and `Fixed Font` (also named `Monospaced F
 
 Use Bold to highlight:
 
-> For example:
-```
-- Make sure you click the **Create** button to start the process.
-- Enter your system’s IP address in the **IP Address** field.
-- Select the **Tools** menu.
-```
+- **Terms used in the GUI** (button names, fields names, menus, radio buttons, checkboxes): For example,
+  - Make sure you click the **Create** button to start the process.
+  - Enter your system’s IP address in the **IP Address** field.
+  - Select the **Tools** menu.
+- **Terms that are preceded by “:” in bulleted lists**: For example, see the bullets in this list.
+- **Names of packages**: For example,
+  Run the `npm install text-cli` command to install the **`txt-cli`** utility.
+- **User input**: For example,
+  Enter **10.1.1.1** in the **IP Address** field.
 
-Terms used in the GUI (button names, fields names, menus, radio buttons, checkboxes)
+**NOTE**: If a button has an icon instead of text, use a small image of the button in your text. For example,
 
-- **Terms that are preceded by “:” in bulleted lists: **For example, see the bullets in this list.
-- **Names of packages: **For example: \
-Run the `npm install text-cli` command to install the **<code>txt-cli</code></strong> utility.
-- <strong>User input: </strong>For example: \
-Enter <strong>10.1.1.1</strong> in the <strong>IP Address</strong> field.
-
-<strong>NOTE: </strong>If a button has an icon instead of text, use a small image of the button in your text. For example:
-
-
-<table>
-  <tr>
-   <td>When the button only has an icon
-   </td>
-   <td>Click Close ( *) to close the dialog box.
-   </td>
-  </tr>
-  <tr>
-   <td>When the button has both icon and text
-   </td>
-   <td>Click Close * to close the dialog box.
-   </td>
-  </tr>
-</table>
-
-
-          Click the 
+|**When the button only has an icon**|Click **Close** (![Close Icon](includes/images/closeIcon.png)) to close the dialog box.|
+|**When the button has both icon and text**|Click Close ![Close Icon](includes/images/closeIcon.png) to close the dialog box.|
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
