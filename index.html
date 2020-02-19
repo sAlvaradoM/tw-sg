@@ -201,7 +201,7 @@
       <script src="javascripts/all-c5541673.js"></script>
   </head>
 
-  <body class="index" data-languages="[&quot;wize&quot;]">
+  <body class="index" data-languages="[]">
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -210,9 +210,6 @@
     </a>
     <div class="toc-wrapper">
       <img src="images/logo-1e815a84.png" class="logo" alt="Logo" />
-        <div class="lang-selector">
-              <a href="#" data-language-name="wize">wize</a>
-        </div>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
         </div>
@@ -230,7 +227,12 @@
               </ul>
           </li>
           <li>
-            <a href="#errors" class="toc-h1 toc-link" data-title="Errors">Errors</a>
+            <a href="#use-of-bold-italics-and-fixed-fonts" class="toc-h1 toc-link" data-title="Use of Bold, Italics, and Fixed Fonts">Use of Bold, Italics, and Fixed Fonts</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#bold-bold" class="toc-h2 toc-link" data-title="Bold {#bold}">Bold {#bold}</a>
+                  </li>
+              </ul>
           </li>
       </ul>
         <ul class="toc-footer">
@@ -257,13 +259,12 @@
 
 <p>For a single-chapter document, ensure you have the following components:</p>
 
+<blockquote>
+<p><strong>IMPORTANT</strong>: Every time you make a major update to an existing document, make sure that you create a copy and make changes to it. Update the release date and month accordingly.</p>
+</blockquote>
+
 <ul>
 <li><strong>The Front Page (or Title Page)</strong>: This contains the official name of the document (or guide), a very short and succinct explanation of what the document is about and a brief description of its audience. It also includes the release month and year.</li>
-</ul>
-
-<p><strong>IMPORTANT</strong>: Every time you make a major update to an existing document, make sure that you create a copy and make changes to it. Update the release date and month accordingly.</p>
-
-<ul>
 <li><strong>A page with ToC</strong>: Always have this if your document is more than five pages. For very short documents, it’s OK to not include the ToC.</li>
 <li><strong>An empty second page</strong>: Leave this page empty.</li>
 <li><strong>A single Chapter</strong>: The content of this entire document resides in this chapter. This just has a heading, no chapter number.</li>
@@ -277,20 +278,21 @@
 
 <p>For a multiple-chapter document, ensure you have the following components:</p>
 
+<blockquote>
+<p><strong>IMPORTANT</strong>: Every time you make a major update to an existing document, make sure that you create a copy and make changes to it. Update the release date and month accordingly.</p>
+</blockquote>
+
 <ul>
 <li><strong>The Front Page (or Title Page)</strong>: This contains the official name of the document (or guide), a very short and succinct explanation of what the document is about and a brief description of its audience. It also includes the release month and year.</li>
 </ul>
 
-<p><strong>IMPORTANT</strong>: Every time you make a major update to an existing document, make sure that you create a copy and make changes to it. Update the release date and month accordingly.</p>
-
-<ul>
-<li><strong>A page with ToC</strong>: Always have this, if your document is more than five pages.</li>
-</ul>
-
+<blockquote>
 <p><strong>NOTE</strong>:For very short documents (five pages or less), it’s OK to not include the ToC.</p>
+</blockquote>
 
 <ul>
-<li><strong>An empty page</strong>: Leave this page empty.</li>
+<li><p><strong>A page with ToC</strong>: Always have this, if your document is more than five pages.</p></li>
+<li><p><strong>An empty page</strong>: Leave this page empty.</p></li>
 </ul>
 
 <blockquote>
@@ -309,70 +311,81 @@ Chapter 1: Before You Begin...
 <li><strong>(Optional) Appendix <em>n</em></strong>: This is the final appendix of the guide or the document. It starts from a new page.</li>
 <li><strong>(Optional) A Glossary</strong>: This contains the list of important terms that have been used in the document, and a good place to consolidate all the important definitions. It starts from a new page.</li>
 </ul>
-<h1 id='errors'>Errors</h1>
-<aside class="notice">
-This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
-</aside>
 
-<p>The Kittn API uses the following error codes:</p>
+<h1 id='use-of-bold-italics-and-fixed-fonts'>Use of Bold, Italics, and Fixed Fonts</h1>
 
-<table><thead>
-<tr>
-<th>Error Code</th>
-<th>Meaning</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>400</td>
-<td>Bad Request -- Your request is invalid.</td>
-</tr>
-<tr>
-<td>401</td>
-<td>Unauthorized -- Your API key is wrong.</td>
-</tr>
-<tr>
-<td>403</td>
-<td>Forbidden -- The kitten requested is hidden for administrators only.</td>
-</tr>
-<tr>
-<td>404</td>
-<td>Not Found -- The specified kitten could not be found.</td>
-</tr>
-<tr>
-<td>405</td>
-<td>Method Not Allowed -- You tried to access a kitten with an invalid method.</td>
-</tr>
-<tr>
-<td>406</td>
-<td>Not Acceptable -- You requested a format that isn&#39;t json.</td>
-</tr>
-<tr>
-<td>410</td>
-<td>Gone -- The kitten requested has been removed from our servers.</td>
-</tr>
-<tr>
-<td>418</td>
-<td>I&#39;m a teapot.</td>
-</tr>
-<tr>
-<td>429</td>
-<td>Too Many Requests -- You&#39;re requesting too many kittens! Slow down!</td>
-</tr>
-<tr>
-<td>500</td>
-<td>Internal Server Error -- We had a problem with our server. Try again later.</td>
-</tr>
-<tr>
-<td>503</td>
-<td>Service Unavailable -- We&#39;re temporarily offline for maintenance. Please try again later.</td>
-</tr>
-</tbody></table>
+<p>We typically use <strong>Bold</strong>, <em>Italics</em>, and <code>Fixed Font</code> (also named <code>Monospaced Font</code> or <code>fixed-pitch</code>) to highlight a specific word for a definitive reason. The following sections explain when to use which for the maximum effect.</p>
+
+<h2 id='bold-bold'>Bold {#bold}</h2>
+
+<p>Use Bold to highlight:</p>
+
+<blockquote>
+<p>For example:
+<code>
+- Make sure you click the **Create** button to start the process.
+- Enter your system’s IP address in the **IP Address** field.
+- Select the **Tools** menu.
+</code></p>
+</blockquote>
+
+<p>Terms used in the GUI (button names, fields names, menus, radio buttons, checkboxes)</p>
+
+<ul>
+<li>**Terms that are preceded by “:” in bulleted lists: **For example, see the bullets in this list.</li>
+<li>*<em>Names of packages: **For example: \
+Run the <code>npm install text-cli</code> command to install the *</em><code>txt-cli</code></strong> utility.</li>
+<li><strong>User input: </strong>For example: \
+Enter <strong>10.1.1.1</strong> in the <strong>IP Address</strong> field.</li>
+</ul>
+
+<p><strong>NOTE: </strong>If a button has an icon instead of text, use a small image of the button in your text. For example:</p>
+
+<table>
+  <tr>
+   <td>When the button only has an icon
+   </td>
+   <td>Click Close ( *) to close the dialog box.
+   </td>
+  </tr>
+  <tr>
+   <td>When the button has both icon and text
+   </td>
+   <td>Click Close * to close the dialog box.
+   </td>
+  </tr>
+</table>
+
+<p>Click the </p>
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+<p><img src="images/images/Copy-of0.png" title="image_tooltip" alt="alt_text" />
+ button to close the dialog box.</p>
+
+<h3 id='italics-italics'>Italics {#italics}</h3>
+
+<p>Italics are typically used to emphasize a word or group of words. For example:</p>
+
+<p><em>At least <strong>two</strong></em> Dev reviews are required before you check in your code.</p>
+
+<p>You must <em>not</em> enter the building without your ID card.</p>
+
+<p>**NOTE: **Use this style sparingly. Otherwise you might dilute its “strength”.</p>
+
+<h3 id='fixed-font-fixed-font'>Fixed Font {#fixed-font}</h3>
+
+<p>Use this style to highlight the following in your text:</p>
+
+<ul>
+<li>  *<em>Command or piece of code: **For example: \
+Run the <code>npm install text-cli</code> command to install the *</em><code>txt-cli</code></strong> utility.</li>
+<li>  <strong>File or folder names: </strong>For example: \
+Read the <code>README.md</code> file before you proceed.</li>
+</ul>
 
       </div>
       <div class="dark-box">
-          <div class="lang-selector">
-                <a href="#" data-language-name="wize">wize</a>
-          </div>
       </div>
     </div>
   </body>
