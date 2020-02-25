@@ -521,12 +521,12 @@ html, body {
     margin: 0;
     width: $examples-width;
 
-    float:right;
+    float:none; //float:right; Commented by Arunabh
     clear:right;
 
     box-sizing: border-box;
 
-    @extend %right-col;
+   // @extend %right-col; commented by Arunabh
 
     &>p { margin: 0; }
 
