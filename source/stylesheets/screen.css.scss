@@ -262,12 +262,15 @@ html, body {
   // I know, it's hackish, but it's the simplist way to make the left
   // half of the content always this background color.
   .dark-box {
+  // Commenting Next 6 lines (arunabh)
     width: $examples-width;
     background-color: $examples-bg;
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
+    // Adding next line (arunabh)
+    // display: none;
   }
 
   .lang-selector {
@@ -518,12 +521,13 @@ html, body {
     margin: 0;
     width: $examples-width;
 
-    float:right;
+    // float:none; Commented by Arunabh
+    float:right; 
     clear:right;
 
     box-sizing: border-box;
 
-    @extend %right-col;
+    @extend %right-col; // commented by Arunabh
 
     &>p { margin: 0; }
 
