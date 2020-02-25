@@ -263,14 +263,14 @@ html, body {
   // half of the content always this background color.
   .dark-box {
   // Commenting Next 6 lines (arunabh)
-    //width: $examples-width;
-    //background-color: $examples-bg;
-    //position: absolute;
-    //right: 0;
-    //top: 0;
-    //bottom: 0;
+    width: $examples-width;
+    background-color: $examples-bg;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
     // Adding next line (arunabh)
-    display: none;
+    // display: none;
   }
 
   .lang-selector {
@@ -521,12 +521,13 @@ html, body {
     margin: 0;
     width: $examples-width;
 
-    float:none; //float:right; Commented by Arunabh
+    // float:none; Commented by Arunabh
+    float:right; 
     clear:right;
 
     box-sizing: border-box;
 
-   // @extend %right-col; commented by Arunabh
+    @extend %right-col; // commented by Arunabh
 
     &>p { margin: 0; }
 
