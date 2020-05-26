@@ -4,14 +4,12 @@ Always try to write in the active voice, but do not fear the correct, thoughtful
 
 Because technical writers often insist on using the active voice, the following incorrect example appears in documentation:
 
-Col1 | Col2
+Situation | Example
 -------|------
 (WRONG)| As soon as the application completes, the following message displays.
 ---------|-----------
-(RIGHT) | As soon as the application is finished, the following message is displayed.
-         OR
-
-        When the application finishes, the following message appears.
+(RIGHT) | As soon as the application is finished, the following message is displayed. <br> OR <br>When the application finishes, the following message appears.
+         
 
 Know that a message does not “display”. Rather, a message “appears” or “is displayed” by the system. The passive voice can indicate that the subject is the receiver of the action rather than the performer.
 
