@@ -1,0 +1,14 @@
+# Active and Passive Voice
+
+Always try to write in the active voice, but do not fear the correct, thoughtful use of the passive voice. Writing entirely in the active voice is nearly impossible to achieve, so know when to use the passive voice.
+
+Because technical writers often insist on using the active voice, the following incorrect example appears in documentation:
+
+Situation | Example
+-------|------
+**WRONG**| As soon as the application completes, the following message displays.
+**RIGHT** | As soon as the application is finished, the following message is displayed. <br> OR <br>When the application finishes, the following message appears.        
+Know that a message does not **display**. Rather, a message **appears** or **is displayed** by the system. The passive voice can indicate that the subject is the receiver of the action rather than the performer.
+
+Make your writing active by concentrating on the activity of your subject. Use the passive voice when it is unavoidable because the performer of the action is either unimportant to the reader or unidentifiable.
+
