@@ -1,6 +1,6 @@
 # Juan Pablo's Heading
 
-This is Juan PAblo's first sentence.
+This is Juan Pablo's first sentence.
 
 ## Lists
 - Item 1
@@ -19,4 +19,4 @@ This is Juan PAblo's first sentence.
 |Col 1|Col 2|
 |-----|-----|
 |Text 1|Text 2|
-|Text 3|Text4|
+|Text 3|Text 4|
