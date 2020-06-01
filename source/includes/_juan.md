@@ -14,7 +14,7 @@ This is Juan PAblo's first sentence.
    1. Step 2.2
 
 
-## Tabels
+## Tables
 
 |Col 1|Col 2|
 |-----|-----|
